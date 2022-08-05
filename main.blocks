@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="*f#-Dw$p@P0lq=of4/Uq">SONIDO</variable></variables><block type="input_on_sound" id=")x-6/5j7o@jpk3y0P`@U" x="342" y="298"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="variables_set" id="CwaXF4VaQx*O-Am(OT}_"><field name="VAR" id="*f#-Dw$p@P0lq=of4/Uq">SONIDO</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_negate" id="D)w($oLSzF5G45O~tKj|"><value name="BOOL"><block type="variables_get" id="qxhY|^t~N(PYwl[:!TH0"><field name="VAR" id="*f#-Dw$p@P0lq=of4/Uq">SONIDO</field></block></value></block></value><next><block type="controls_if" id="J)u)jV{7Lnk?OpT4aXh`"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="variables_get" id="JfM}3DP;d]/OIOs5c`f-"><field name="VAR" id="*f#-Dw$p@P0lq=of4/Uq">SONIDO</field></block></value><statement name="DO0"><block type="device_show_leds" id="}oZZ])lEeb-vC;jKNc#C"><field name="LEDS">`
+        . # # # . 
+        . # . # . 
+        . # # # . 
+        . . # . . 
+        . # # # .
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="$pA%`H%a0^nl]qLpw^Og"></block></statement></block></next></block></statement></block></xml>
